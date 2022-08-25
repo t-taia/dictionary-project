@@ -1,13 +1,28 @@
 import logo from "./logo.png";
 import './App.css';
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo"/>
-        <div>Hello there!</div>
-      </header>
+      <div className="container">
+
+        {/*------Header--------*/}
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="logo"/>
+          
+        </header>
+
+        {/*------Main part--------*/}
+        <main>
+          <Dictionary />
+        </main>
+        
+        {/*------Footer--------*/}
+        <footer className="App-footer">
+          <small>Coded by SheCodes</small>
+          </footer>
+      </div>
     </div>
   );
 }
