@@ -15,7 +15,7 @@ function App() {
 
         {/*------Main part--------*/}
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="tennis" />
         </main>
         
         {/*------Footer--------*/}
