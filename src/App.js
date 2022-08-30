@@ -20,7 +20,13 @@ function App() {
         
         {/*------Footer--------*/}
         <footer className="App-footer">
-          <small>Coded by SheCodes</small>
+          <small>
+          This project was coded by {" "}
+        <a href="https://github.com/t-taia/" target="_blank" rel="noopener noreferrer">
+          Taia</a> and is{" "}  
+        <a href="https://github.com/t-taia/dictionary-project" target="_blank" rel="noopener noreferrer"> 
+        open-sourced on GitHub</a>
+          </small>
           </footer>
       </div>
     </div>
